@@ -1,0 +1,36 @@
+#root {
+  font-family: 'Raleway', sans-serif;
+  margin: 10px;
+}
+
+h1 {
+  margin: 10px 0;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+#clock-container {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  background-color: orange;
+  border: 1px solid black;
+  border-radius: 2px;
+  padding: 10px;
+}
+
+#clock-container > h2{
+  display: flex;
+  justify-content: space-between;
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 2em;
+  color: white;
+}
