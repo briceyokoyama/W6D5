@@ -34,3 +34,15 @@ body {
   line-height: 2em;
   color: white;
 }
+
+#tabs {
+
+}
+
+#tab-headers {
+  display: flex;
+}
+
+#tab-content {
+
+}

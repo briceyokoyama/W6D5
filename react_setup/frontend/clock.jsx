@@ -27,8 +27,8 @@ class Clock extends React.Component{
   render() {
     return  (
       <>
-        <h1>Clock</h1>
         <div id="clock-container">
+        <h1>Clock</h1>
           <h2><span>Time: </span><span>{this.state.time.toTimeString().split(" ")[0]} PDT</span></h2>
           <h2><span>Date: </span><span>{this.state.time.toDateString()}</span></h2>
         </div>
